@@ -36,7 +36,7 @@ class BoardsViewController: UITableViewController {
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        //If the triggered segue is the "Show Item" segue
+        //If the triggered segue is the "ShowBoard" segue
         if segue.identifier == "ShowBoard" {
             //Figure out which row was just tapped
             if let row = tableView.indexPathForSelectedRow?.row {
