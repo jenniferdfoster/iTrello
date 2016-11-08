@@ -31,7 +31,6 @@ class CardsViewController: UITableViewController {
                 self.tableView.layoutIfNeeded()
                 self.tableView.reloadData() })
         }
-
     }
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
